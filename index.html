@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Interactive comments section</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <!-- All Cards -->
+  <div class="cards">
+  <!-- Card 1 -->
+    <div class="card">
+      <div class="topCard">
+        <img src="images/avatars/image-amyrobson.png" class="avatar">
+      <span>amyrobson</span>
+      <span>1 month ago</span>
+      </div>
+     <div class="textCard">
+      <p>impressive! though it seems the drag feature could be improved. 
+        But overall it looks incredible. You've nailed the design and 
+        the responsive at vairous breakpoints works really well</p>
+     </div>
+     <div class="footerCard">
+      <div class="left">
+        <span><img src="images/icon-plus.svg"></span>
+        <span class="num1">12</span>
+        <span><img src="images/icon-minus.svg"></span>
+      </div>
+      <div class="right">
+       
+        <span> <img src="images/icon-reply.svg"> Reply</span>
+      </div>
+     </div>
+    </div>
+    <!-- Card 2 -->
+    <div class="card">
+<div class="topCard">
+  <img src="images/avatars/image-maxblagun.png" class="avatar">
+  <span>maxblagun</span>
+  <span>2 weeks ago</span>
+</div>
+     <div class="textCard">
+      <p>
+      Woah, your project looks awesome! How long have you beed coding for?
+       iam still new. but think i want to drive into React as well soon.
+        Perhabs you can give me an insight on where i can learn React?
+        Thanks!
+      </p>
+     </div>
+     <div class="footerCard">
+      <div class="left">
+        <span><img src="images/icon-plus.svg"></span>
+        <span class="num2">5</span>
+        <span><img src="images/icon-minus.svg"></span>
+      </div>
+      <div class="right">
+        
+        <span><img src="images/icon-reply.svg"> Reply</span>
+      </div>
+     </div>
+    </div>
+    <!-- Card 3 -->
+    <div class="card">
+<div class="topCard">
+  <img src="images/avatars/image-ramsesmiron.png" class="avatar">
+  <span>ramsesmiron</span>
+  <span>1 weeks ago</span>
+</div>
+     <div class="textCard">
+      <p>
+      <span class="mention">@maxblagun</span> if you'are still new. i'd recommend focusing
+       on the fundamentals og HTML , CSS and JS before considering React.
+        its very templting to jump ahead but lay a solid foundation first
+      </p>
+     </div>
+     <div class="footerCard">
+      <div class="left">
+        <span><img src="images/icon-plus.svg"></span>
+        <span class="num3">4</span>
+        <span><img src="images/icon-minus.svg"></span>
+      </div>
+      <div class="right">
+        
+        <span><img src="images/icon-reply.svg"> Reply</span>
+      </div>
+     </div>
+    </div>
+    <!-- Card 4 -->
+    <div class="card card4">
+<div class="topCard">
+  <img src="images/avatars/image-juliusomo.png" class="avatar">
+  <span>juliusomo</span>
+  <span>you</span>
+  <span>2 days ago</span>
+</div>
+     <div class="textCard">
+      <p>
+        <span class="mention">@ramsesmiron</span> I couldn't agree more with this. Everything
+        moves so Fast and it Always seems like everyone knows the newest
+         library/framework. But the fundamentals are what stay constant
+      </p>
+     </div>
+     <div class="footerCard">
+      <div class="left">
+        <span><img src="images/icon-plus.svg"></span>
+        <span class="num4">2</span>
+        <span><img src="images/icon-minus.svg"></span>
+      </div>
+      <div class="right">
+<span><img src="images/icon-delete.svg"> Delete</span>
+<span><img src="images/icon-edit.svg">Edit</span>
+      </div>
+     </div>
+    </div>
+    <!-- Comment -->
+    <div class="comment">
+      <textarea cols="40" rows="4" placeholder="Add a Comment"></textarea>
+<div class="actionComment">
+  <div class="leftComment">
+    <img src="images/avatars/image-juliusomo.png">
+  </div>
+  <div class="rightComment">
+    <button>Send</button>
+  </div>
+</div>
+    </div>
+  </div>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
+
+<!-- 
+ Pull dynamic content from the data.json file 
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
